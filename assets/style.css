@@ -1,0 +1,97 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: #0078D7;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background: #0078D7;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+header .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+header .subtitle {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+}
+header .cta-button {
+    display: inline-block;
+    background: white;
+    color: #0078D7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+header .cta-button:hover {
+    background: #005bb5;
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h2 {
+    color: #0078D7;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+.project-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+}
+
+/* Contact Links */
+.contact-links {
+    list-style: none;
+    padding: 0;
+}
+.contact-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #777;
+}
