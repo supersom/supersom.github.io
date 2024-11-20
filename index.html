@@ -3,85 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project Instructions</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-            line-height: 1.6;
-        }
-        header {
-            background: #0078D7;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #0078D7;
-        }
-        a {
-            color: #0078D7;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #777;
-        }
-    </style>
+    <title>My Personal Website</title>
+    <link href="assets/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Project!</h1>
+        <div class="container">
+            <img src="assets/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Hi, I'm [Your Name]!</h1>
+            <p class="subtitle">Web Developer | Designer | Tech Enthusiast</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
     </header>
     <main>
-        <h2>Getting Started</h2>
-        <p>Follow the steps below to set up and use this project:</p>
-        <ol>
-            <li>Clone the repository: <code>git clone https://github.com/username/repository.git</code></li>
-            <li>Navigate to the project folder: <code>cd repository</code></li>
-            <li>Install dependencies: <code>npm install</code> (or equivalent)</li>
-            <li>Run the project: <code>npm start</code> (or equivalent)</li>
-        </ol>
-
-        <h2>Features</h2>
-        <p>Here's what this project offers:</p>
-        <ul>
-            <li>Feature 1: Explanation of feature 1.</li>
-            <li>Feature 2: Explanation of feature 2.</li>
-            <li>Feature 3: Explanation of feature 3.</li>
-        </ul>
-
-        <h2>Contributing</h2>
-        <p>Want to contribute? Follow these steps:</p>
-        <ol>
-            <li>Fork the repository.</li>
-            <li>Create a new branch: <code>git checkout -b feature-branch</code>.</li>
-            <li>Commit your changes: <code>git commit -m "Description"</code>.</li>
-            <li>Push your branch: <code>git push origin feature-branch</code>.</li>
-            <li>Submit a pull request.</li>
-        </ol>
-
-        <p>Need help? Check out the <a href="https://github.com/username/repository">GitHub repository</a>.</p>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I'm a passionate [your profession or passion] who loves building creative and impactful solutions.
+                    Whether it's crafting beautiful websites, solving challenging problems, or learning new technologies, 
+                    I'm always eager to grow and contribute.
+                </p>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Project 1</h3>
+                        <p>A brief description of your first project. <a href="#">View Project</a></p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 2</h3>
+                        <p>A brief description of your second project. <a href="#">View Project</a></p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 3</h3>
+                        <p>A brief description of your third project. <a href="#">View Project</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Feel free to reach out to me via email or connect with me on social media!</p>
+                <ul class="contact-links">
+                    <li><a href="mailto:your-email@example.com">Email</a></li>
+                    <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+                    <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2024 My Project. Built with ❤️ on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
     </footer>
 </body>
 </html>
