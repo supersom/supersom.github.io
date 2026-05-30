@@ -3,72 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Som's Website</title>
+    <title>Somdutta Banerjee | Modern Personal Portfolio</title>
     <link href="assets/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <img src="assets/profile.jpg" alt="Profile Picture" class="profile-pic">
-            <h1>Hi, I'm Somdutta Banerjee (Som)!</h1>
-            <p class="subtitle">Data Scientist | Software Engineer | Tech Enthusiast and Leader</p>
-            <a href="#contact" class="cta-button">Get in Touch</a>
+    <nav class="site-nav">
+        <div class="container nav-layout">
+            <a href="#top" class="brand">Somdutta Banerjee</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#focus">Focus</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="top" class="hero">
+        <div class="container hero-layout">
+            <div class="hero-copy">
+                <p class="eyebrow">AI/ML • Computer Vision • Distributed Systems • Leadership</p>
+                <h1>Hi, I’m Som.</h1>
+                <p class="subtitle">I build intelligent systems, scalable software, and thoughtful technical organizations.</p>
+                <p class="hero-summary">I’m a technology leader with two decades of hands-on experience across AI/ML, computer vision, and distributed systems—focused on building practical, useful systems that solve meaningful problems.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="button button-primary">Explore Projects</a>
+                    <a href="#contact" class="button button-secondary">Let’s Connect</a>
+                </div>
+                <div class="tag-row">
+                    <span>AI/ML Systems</span>
+                    <span>Computer Vision</span>
+                    <span>Scalable Platforms</span>
+                    <span>Tech Leadership</span>
+                </div>
+            </div>
+            <div class="hero-card">
+                <img src="assets/profile.jpg" alt="Portrait of Somdutta Banerjee" class="profile-pic">
+                <div class="hero-card-copy">
+                    <p class="card-label">Currently focused on</p>
+                    <ul>
+                        <li>Applied machine learning</li>
+                        <li>Vision-driven systems</li>
+                        <li>Distributed architecture</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
+
     <main>
-        <section id="about">
+        <section id="about" class="section">
             <div class="container">
-                <h2>About Me</h2>
-                <p>
-                    Technology leader with two decades of hands-on experience in AI/ML, computer vision, and distributed systems
-                </p>
-            </div>
-        </section>
-        <section id="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="project-grid">
-                    <div class="project-card">
-                        <h3>Project 1</h3>
-                        <p>A brief description of your first project. <a href="#Project 1">View Project</a></p>
-                    </div>
-                    <div class="project-card">
-                        <h3>Project 2</h3>
-                        <p>A brief description of your second project. <a href="#">View Project</a></p>
-                    </div>
-                    <div class="project-card">
-                        <h3>Project 3</h3>
-                        <p>A brief description of your third project. <a href="#">View Project</a></p>
-                    </div>
+                <p class="section-label">About Me</p>
+                <div class="intro-card">
+                    <h2>A mix of engineering depth, product thinking, and leadership.</h2>
+                    <p>I enjoy building impactful systems and helping teams move from complexity to clarity. My background spans machine learning, computer vision, distributed systems, and the technical leadership needed to turn ambitious ideas into reliable execution.</p>
                 </div>
             </div>
         </section>
-        <section id="contact">
+
+        <section id="focus" class="section section-muted">
             <div class="container">
-                <h2>Contact</h2>
-                <p></p>
-                <ul class="contact-links">
-                    <li><a href="mailto:banerjee.somdutta@gmail.com">Email</a></li>
-                    <li><a href="https://github.com/supersom" target="_blank">GitHub</a></li>
-                    <li><a href="https://linkedin.com/in/banerjeesomdutta" target="_blank">LinkedIn</a></li>
-                </ul>
+                <p class="section-label">What I Work On</p>
+                <h2>Core areas I keep coming back to</h2>
+                <div class="card-grid focus-grid">
+                    <article class="focus-card accent-1">
+                        <h3>AI/ML Systems</h3>
+                        <p>Taking models and experimentation toward production-ready capabilities.</p>
+                    </article>
+                    <article class="focus-card accent-2">
+                        <h3>Computer Vision</h3>
+                        <p>Building vision applications that connect perception to practical outcomes.</p>
+                    </article>
+                    <article class="focus-card accent-3">
+                        <h3>Distributed Software</h3>
+                        <p>Designing scalable systems that balance performance and maintainability.</p>
+                    </article>
+                    <article class="focus-card accent-4">
+                        <h3>Leadership</h3>
+                        <p>Creating direction, momentum, and technical clarity across teams.</p>
+                    </article>
+                </div>
             </div>
         </section>
-        <section id="Project 1">
+
+        <section id="projects" class="section">
             <div class="container">
-                <h2>Project 1</h2>
-                <p>Feel free to reach out to me via email or connect with me on social media!</p>
+                <p class="section-label">Featured Projects</p>
+                <h2>Representative themes from my work</h2>
+                <div class="card-grid project-grid">
+                    <article class="project-card">
+                        <span class="project-tag">Applied ML</span>
+                        <h3>Intelligent systems with practical impact</h3>
+                        <p>Work focused on building ML systems that are useful, robust, and aligned with real product needs.</p>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-tag">Vision</span>
+                        <h3>Perception-driven solutions</h3>
+                        <p>Projects involving computer vision, real-world data, and measurable engineering outcomes.</p>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-tag">Platforms</span>
+                        <h3>Scalable software foundations</h3>
+                        <p>System design and engineering work centered on scale, reliability, and long-term maintainability.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-muted">
+            <div class="container contact-card">
+                <p class="section-label">Let’s Connect</p>
+                <h2>I’m always happy to connect around interesting technology problems.</h2>
+                <p>Whether it’s AI/ML, distributed systems, engineering leadership, or collaboration, feel free to reach out.</p>
                 <ul class="contact-links">
                     <li><a href="mailto:banerjee.somdutta@gmail.com">Email</a></li>
-                    <li><a href="https://github.com/supersom" target="_blank">GitHub</a></li>
-                    <li><a href="https://linkedin.com/in/banerjeesomdutta" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/supersom" target="_blank" rel="noreferrer">GitHub</a></li>
+                    <li><a href="https://linkedin.com/in/banerjeesomdutta" target="_blank" rel="noreferrer">LinkedIn</a></li>
                 </ul>
             </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Somdutta Banerjee. All rights reserved.</p>
+        <p>&copy; 2026 Somdutta Banerjee. All rights reserved.</p>
     </footer>
 </body>
 </html>
